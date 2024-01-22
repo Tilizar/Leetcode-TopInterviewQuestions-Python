@@ -13,7 +13,4 @@ def removeDuplicates(nums: List[int]) -> int:
 
 
 if __name__ == '__main__':
-    nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-    output = removeDuplicates(nums)
-    print(nums)
-    print(output)
+    assert 5 == removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])
