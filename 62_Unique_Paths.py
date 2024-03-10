@@ -1,6 +1,3 @@
-from collections import defaultdict
-
-
 def uniquePaths(m: int, n: int) -> int:
     row = [1] * n
 
