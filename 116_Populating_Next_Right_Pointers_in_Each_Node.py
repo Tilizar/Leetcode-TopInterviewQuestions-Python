@@ -1,6 +1,6 @@
 from typing import Optional
 
-from utils.Node import Node
+from utils.NodeWithLeftAndRight import Node
 
 
 def connect(root: Optional[Node]) -> Optional[Node]:
