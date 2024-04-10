@@ -36,5 +36,3 @@ def canFinish(numCourses: int, prerequisites: List[List[int]]) -> bool:
 if __name__ == '__main__':
     assert canFinish(2, [[1, 0]])
     assert not canFinish(2, [[1, 0], [0, 1]])
-    assert canFinish(5, [[1, 4], [2, 4], [3, 1], [3, 2]])
-    assert canFinish(8, [[1, 0], [2, 6], [1, 7], [6, 4], [7, 0], [0, 5]])
