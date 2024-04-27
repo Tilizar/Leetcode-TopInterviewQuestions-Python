@@ -1,5 +1,6 @@
 from typing import List
 
+
 def increasingTriplet(nums: List[int]) -> bool:
     if len(nums) < 3:
         return False
